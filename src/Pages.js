@@ -20,7 +20,6 @@ const Pages = () => {
          <Navbar expand="sm" bg='dark' variant='dark' sticky='top' >
             <Container>
                <Navbar.Brand href="#Home">
-                  <Image src={profilePicture} alt='brand' width='70' height='60' roundedCircle />
                   <span style={{ marginLeft: '10px' }}>Akhmal Novanda</span>
                </Navbar.Brand>
                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -40,6 +39,7 @@ const Pages = () => {
             marginTop: '100px'
          }}
             id='Home'>
+               <Image src={profilePicture} alt='brand' width={300} height='auto' roundedCircle />
             <h1>Hey, I'M Akhmal Novanda Aziz</h1>
             <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall products</p>
             <Link >
