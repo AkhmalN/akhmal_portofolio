@@ -41,7 +41,7 @@ const Pages = () => {
          }}
             id='Home'>
             <h1>Hey, I'M Akhmal Novanda Aziz</h1>
-            <p>a Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall products</p>
+            <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall products</p>
             <Link >
                <button type='button' className="btn text-white" style={{ backgroundColor: '#6527BE' }}>
                   Projects
