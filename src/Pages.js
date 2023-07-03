@@ -85,10 +85,10 @@ const Pages = () => {
             {PROJECTS.map((project, id) => {
                return (
                   <Row key={id} >
-                     <Col>
+                     <Col sm = {5}>
                         <Image src={project.image} width='400px' height='auto' />
                      </Col>
-                     <Col>
+                     <Col sm = {6}>
                         <h3 className='mb-3 mt-3'>{project.name}</h3>
                         <p>{project.description}</p>
                         <Row>
