@@ -23,8 +23,8 @@ const Pages = () => {
                   <Image src={profilePicture} alt='brand' width='70' height='60' roundedCircle />
                   <span style={{ marginLeft: '10px' }}>Akhmal Novanda</span>
                </Navbar.Brand>
-               <Navbar.Toggle aria-controls="basic-navbar-nav" />
-               <Navbar.Collapse id="basic-navbar-nav">
+               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+               <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto">
                      <Nav.Link href="#Home">Home</Nav.Link>
                      <Nav.Link href="#About">About</Nav.Link>
@@ -86,7 +86,7 @@ const Pages = () => {
                return (
                   <Row key={id} >
                      <Col>
-                        <Image src={project.image} width='500px' height='auto' />
+                        <Image src={project.image} width='400px' height='auto' />
                      </Col>
                      <Col>
                         <h3 className='mb-3 mt-3'>{project.name}</h3>
