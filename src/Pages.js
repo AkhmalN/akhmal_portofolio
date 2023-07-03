@@ -85,13 +85,13 @@ const Pages = () => {
             {PROJECTS.map((project, id) => {
                return (
                   <Row key={id} >
-                     <Col sm = {5}>
-                        <Image src={project.image} width='400px' height='auto' />
+                     <Col sm = {4}>
+                        <img src={project.image} width="400" height="300" alt={project.title}/>
                      </Col>
-                     <Col sm = {6}>
+                     <Col sm = {7}>
                         <h3 className='mb-3 mt-3'>{project.name}</h3>
                         <p>{project.description}</p>
-                        <Row>
+                        <Row >
                            <Col>
                               <Link to={project.public_link} target='blank'>
                                  <button type='button' className="btn text-white mb-5" style={{ backgroundColor: '#6527BE' }}>
