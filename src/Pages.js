@@ -39,7 +39,7 @@ const Pages = () => {
             marginTop: '100px'
          }}
             id='Home'>
-               <Image src={profilePicture} alt='brand' width={300} height='auto' roundedCircle />
+               <Image src={profilePicture} alt='brand' width={300} height='auto' roundedCircle/>
             <h1>Hey, I'M Akhmal Novanda Aziz</h1>
             <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall products</p>
             <Link >
