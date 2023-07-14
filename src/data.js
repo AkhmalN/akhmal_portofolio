@@ -7,7 +7,6 @@ export const SKILLS = [
    'HTML', 'CSS', 'Javascript', 'GITHUB', 'React.Js', 'MySQL Basic', 'Microsoft Office', 'Canva'
 ]
 
-
 export const PROJECTS = [
    {
       id : 1,

@@ -13,6 +13,7 @@ import { TbWorldCheck } from 'react-icons/tb'
 import { FaLinkedinIn, FaInstagram, FaTwitter, FaFacebook, FaGithub } from 'react-icons/fa'
 import { SKILLS, PROJECTS } from './data'
 import './App.css'
+import myCv from './assets/CV _ Akhmal Novanda Aziz.pdf'
 
 const Pages = () => {
    return (
@@ -39,7 +40,7 @@ const Pages = () => {
             marginTop: '100px'
          }}
             id='Home'>
-               <Image src={profilePicture} alt='brand' width={300} height='auto' roundedCircle/>
+            <Image src={profilePicture} alt='brand' width={300} height='auto' roundedCircle />
             <h1>Hey, I'M Akhmal Novanda Aziz</h1>
             <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall products</p>
             <Link >
@@ -61,9 +62,17 @@ const Pages = () => {
                      I also like sharing content related to the stuff that I have learned over the years in <strong>Web Development</strong> so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin where I post useful content related to Web Development and Programming
 
                      I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <strong>contact</strong> me.</p>
-                  <Link >
+                  <Link>
                      <button type='button' className="btn text-white mb-5" style={{ backgroundColor: '#6527BE' }}>
                         Contact
+                     </button>
+                  </Link>
+                  <Link style={{ marginLeft: '10px' }} to={myCv}
+                     download="Example-PDF-document"
+                     target="_blank"
+                     rel="noreferrer">
+                     <button type='button' className="btn text-white mb-5" style={{ backgroundColor: '#A076F9' }}>
+                        My Resume
                      </button>
                   </Link>
                </Col>
@@ -85,10 +94,10 @@ const Pages = () => {
             {PROJECTS.map((project, id) => {
                return (
                   <Row key={id} >
-                     <Col sm = {4}>
-                        <img src={project.image} width="400" height="300" alt={project.title}/>
+                     <Col sm={4}>
+                        <img src={project.image} width="400" height="300" alt={project.title} />
                      </Col>
-                     <Col sm = {7}>
+                     <Col sm={7}>
                         <h3 className='mb-3 mt-3'>{project.name}</h3>
                         <p>{project.description}</p>
                         <Row >
