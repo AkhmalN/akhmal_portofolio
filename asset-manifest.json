@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/akhmaln_site/static/css/main.dedb3aa1.css",
-    "main.js": "/akhmaln_site/static/js/main.bffea564.js",
-    "static/media/logo.png": "/akhmaln_site/static/media/logo.4d3a6b7a7643f9e9006e.png",
-    "static/media/CV _ Akhmal Novanda Aziz.pdf": "/akhmaln_site/static/media/CV _ Akhmal Novanda Aziz.ccc7a6f228dee368a756.pdf",
-    "static/media/projects-1.png": "/akhmaln_site/static/media/projects-1.cbccd83837300f88242e.png",
-    "static/media/projects-3.png": "/akhmaln_site/static/media/projects-3.f78d580ef1c7a77eb96f.png",
-    "static/media/projects-2.png": "/akhmaln_site/static/media/projects-2.c77d753f2eb74e979cac.png",
-    "static/media/projects-4.png": "/akhmaln_site/static/media/projects-4.17be489646190d127026.png",
-    "index.html": "/akhmaln_site/index.html",
-    "main.dedb3aa1.css.map": "/akhmaln_site/static/css/main.dedb3aa1.css.map",
-    "main.bffea564.js.map": "/akhmaln_site/static/js/main.bffea564.js.map"
+    "main.css": "/akhmal_portofolio/static/css/main.dedb3aa1.css",
+    "main.js": "/akhmal_portofolio/static/js/main.573f3a8b.js",
+    "static/media/logo.png": "/akhmal_portofolio/static/media/logo.4d3a6b7a7643f9e9006e.png",
+    "static/media/CV _ Akhmal Novanda Aziz.pdf": "/akhmal_portofolio/static/media/CV _ Akhmal Novanda Aziz.ccc7a6f228dee368a756.pdf",
+    "static/media/projects-1.png": "/akhmal_portofolio/static/media/projects-1.cbccd83837300f88242e.png",
+    "static/media/projects-3.png": "/akhmal_portofolio/static/media/projects-3.f78d580ef1c7a77eb96f.png",
+    "static/media/projects-2.png": "/akhmal_portofolio/static/media/projects-2.c77d753f2eb74e979cac.png",
+    "static/media/projects-4.png": "/akhmal_portofolio/static/media/projects-4.17be489646190d127026.png",
+    "index.html": "/akhmal_portofolio/index.html",
+    "main.dedb3aa1.css.map": "/akhmal_portofolio/static/css/main.dedb3aa1.css.map",
+    "main.573f3a8b.js.map": "/akhmal_portofolio/static/js/main.573f3a8b.js.map"
   },
   "entrypoints": [
     "static/css/main.dedb3aa1.css",
-    "static/js/main.bffea564.js"
+    "static/js/main.573f3a8b.js"
   ]
 }
