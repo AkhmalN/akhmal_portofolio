@@ -71,7 +71,7 @@ const Pages = () => {
                      download="Example-PDF-document"
                      target="_blank"
                      rel="noreferrer">
-                     <button type='button' className="btn text-white mb-5" style={{ backgroundColor: '#A076F9' }}>
+                     <button type='button' className="btn text-white mb-5" style={{ backgroundColor: '#2B2730' }}>
                         My Resume
                      </button>
                   </Link>
